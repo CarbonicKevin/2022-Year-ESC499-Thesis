@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Mar 18 20:12:51 2023
+# Process ID: 33880
+# Current directory: C:/Users/kevin/Documents/Github/thesis/RFSoC2x2/rfsoc_sam
+# Command line: vivado.exe -mode batch -source make_block_design.tcl -notrace
+# Log file: C:/Users/kevin/Documents/Github/thesis/RFSoC2x2/rfsoc_sam/vivado.log
+# Journal file: C:/Users/kevin/Documents/Github/thesis/RFSoC2x2/rfsoc_sam\vivado.jou
+#-----------------------------------------------------------
+source make_block_design.tcl -notrace
