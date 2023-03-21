@@ -114,6 +114,11 @@ def customize_package(fft_size:str, fft_ver:str):
         f"np.log2(fft_size)-6",
         f"np.log2(fft_size)"
     )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
+        f"SpectrumAnalyser:1.1",
+        f"SpectrumAnalyser{fft_size}:{fft_ver}"
+    )
     
     file_replace_string(
         f"{dest_src_folder}/receiver_frontend.py",
