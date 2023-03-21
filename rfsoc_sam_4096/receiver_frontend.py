@@ -494,7 +494,7 @@ class RadioAnalyserGUI():
                         'nyquist_stopband' : 80,
                         'decimation_factor' : self.analyser.decimation_factor,
                         'calibration_mode' : self.analyser.calibration_mode,
-                        'fftsize' : 2048,
+                        'fftsize' : 4096,
                         'spectrum_type' : self.analyser.spectrum_type,
                         'spectrum_units' : self.analyser.spectrum_units,
                         'window' : 'hanning',

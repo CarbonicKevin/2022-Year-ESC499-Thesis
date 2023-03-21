@@ -122,6 +122,11 @@ def customize_package(fft_size:str, fft_ver:str):
     
     file_replace_string(
         f"{dest_src_folder}/receiver_frontend.py",
+        f"'fftsize' : 2048",
+        f"'fftsize' : {fft_size}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/receiver_frontend.py",
         f"options=[64, 128, 256, 512, 1024, 2048, 4096, 8192],\n\
                                        value=4096,\n\
                                        dict_id='fftsize'",
