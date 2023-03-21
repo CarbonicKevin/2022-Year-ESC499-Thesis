@@ -5,11 +5,11 @@ from distutils.dir_util import copy_tree
 from setuptools import find_packages, setup
 
 # global variables
-package_name = 'rfsoc_sam_cust'
-pip_name = 'rfsoc-sam-cust'
+package_name = 'rfsoc_sam_custom'
+pip_name = 'rfsoc-sam-custom'
 board = os.environ['BOARD']
-repo_board_folder = f'boards/{board}/rfsoc_sam'
-alt_overlay_folder = [f'boards/{board}/rfsoc_sam']
+repo_board_folder = f'boards/{board}/rfsoc_sam_custom'
+alt_overlay_folder = [f'boards/{board}/rfsoc_sam_custom']
 board_notebooks_dir = os.environ['PYNQ_JUPYTER_NOTEBOOKS']
 board_project_dir = os.path.join(board_notebooks_dir, 'spectrum-analyzer-custom')
 
@@ -76,7 +76,7 @@ copy_xrfclk()
 
 setup(
     name=package_name,
-    version='0.0.1',
+    version='0.0.2',
     install_requires=[ 'pynq==2.7', ],
     url='https://github.com/strath-sdr/rfsoc_sam',
     license='BSD 3-Clause License',
