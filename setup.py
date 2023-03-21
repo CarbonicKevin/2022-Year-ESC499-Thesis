@@ -5,13 +5,14 @@ from distutils.dir_util import copy_tree
 from setuptools import find_packages, setup
 
 # global variables
-package_name = 'rfsoc_sam_custom'
-pip_name = 'rfsoc-sam-custom'
+fft_size = 4096
+package_name = f'rfsoc_sam_{fft_size}'
+pip_name = f'rfsoc-sam-{fft_size}'
 board = os.environ['BOARD']
-repo_board_folder = f'boards/{board}/rfsoc_sam_custom'
-alt_overlay_folder = [f'boards/{board}/rfsoc_sam_custom']
+repo_board_folder = f'boards/{board}/rfsoc_sam_{fft_size}'
+alt_overlay_folder = [f'boards/{board}/rfsoc_sam_{fft_size}']
 board_notebooks_dir = os.environ['PYNQ_JUPYTER_NOTEBOOKS']
-board_project_dir = os.path.join(board_notebooks_dir, 'spectrum-analyzer-custom')
+board_project_dir = os.path.join(board_notebooks_dir, 'spectrum-analyzer-{fft_size}')
 
 data_files = []
 
@@ -76,14 +77,14 @@ copy_xrfclk()
 
 setup(
     name=package_name,
-    version='0.0.4',
+    version='0.0.1',
     install_requires=[ 'pynq==2.7', ],
     url='https://github.com/strath-sdr/rfsoc_sam',
     license='BSD 3-Clause License',
     author="Kevin Kim",
     author_email="kevinmj.kim@mail.utoronto.ca",
-    packages=find_packages(),
-    package_data={ '': data_files, },
-    description="Fork of rfsoc_sam for custom FFT"
+    packages=[package_name],
+    package_data={ 'package_name': data_files, },
+    description=f"Fork of rfsoc_sam for custom FFT with size {fft_size}"
 )
 
