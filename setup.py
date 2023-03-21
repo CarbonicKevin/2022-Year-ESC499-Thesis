@@ -12,7 +12,7 @@ board = os.environ['BOARD']
 repo_board_folder = f'boards/{board}/rfsoc_sam_{fft_size}'
 alt_overlay_folder = [f'boards/{board}/rfsoc_sam_{fft_size}']
 board_notebooks_dir = os.environ['PYNQ_JUPYTER_NOTEBOOKS']
-board_project_dir = os.path.join(board_notebooks_dir, 'spectrum-analyzer-{fft_size}')
+board_project_dir = os.path.join(board_notebooks_dir, f'spectrum-analyzer-{fft_size}')
 
 data_files = []
 
@@ -84,7 +84,7 @@ setup(
     author="Kevin Kim",
     author_email="kevinmj.kim@mail.utoronto.ca",
     packages=[package_name],
-    package_data={ 'package_name': data_files, },
+    package_data={package_name: data_files, },
     description=f"Fork of rfsoc_sam for custom FFT with size {fft_size}"
 )
 
