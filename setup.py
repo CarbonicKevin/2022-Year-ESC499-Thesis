@@ -1,3 +1,4 @@
+import sys
 import os
 import shutil
 from distutils.dir_util import copy_tree
@@ -5,7 +6,7 @@ from distutils.dir_util import copy_tree
 from setuptools import find_packages, setup
 
 # global variables
-fft_size = 4096
+fft_size=sys.argv.pop(1)
 package_name = f'rfsoc_sam_{fft_size}'
 pip_name = f'rfsoc-sam-{fft_size}'
 board = os.environ['BOARD']
@@ -83,7 +84,8 @@ setup(
     license='BSD 3-Clause License',
     author="Kevin Kim",
     author_email="kevinmj.kim@mail.utoronto.ca",
-    packages=[package_name],
+    packages=[package_name,],
+    package_dir={package_name:package_name, },
     package_data={package_name: data_files, },
     description=f"Fork of rfsoc_sam for custom FFT with size {fft_size}"
 )
