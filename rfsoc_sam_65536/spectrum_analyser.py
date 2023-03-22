@@ -166,8 +166,8 @@ class SpectrumAnalyser(DefaultIP):
         self._window_address = 0
         self._window_transfer = 0
         
-        self._window_squaresum = 4096
-        self._window_sum = 4096
+        self._window_squaresum = 65536
+        self._window_sum = 65536
         self._window_type = 'rectangular'
         
         """Spectrum Registers

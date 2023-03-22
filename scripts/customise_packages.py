@@ -117,6 +117,16 @@ def customize_package(fft_size:str, fft_ver:str):
     )
     file_replace_string(
         f"{dest_src_folder}/spectrum_analyser.py",
+        f"self._window_squaresum = 4096",
+        f"self._window_squaresum = {fft_size}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
+        f"self._window_sum = 4096",
+        f"self._window_sum = {fft_size}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
         f"self._dma_length = 4096",
         f"self._dma_length = {fft_size}"
     )
