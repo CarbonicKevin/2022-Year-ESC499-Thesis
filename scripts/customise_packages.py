@@ -107,6 +107,21 @@ def customize_package(fft_size:str, fft_ver:str):
     
     file_replace_string(
         f"{dest_src_folder}/spectrum_analyser.py",
+        f"self.ssr_packetsize = 512",
+        f"self.ssr_packetsize = {int(int(fft_size)/8)}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
+        f"self._window_packetsize = 4096",
+        f"self._window_packetsize = {fft_size}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
+        f"self._dma_length = 4096",
+        f"self._dma_length = {fft_size}"
+    )
+    file_replace_string(
+        f"{dest_src_folder}/spectrum_analyser.py",
         f"if fft_size in [8192, 4096, 2048, 1024, 512, 256, 128, 64]",
         f"if fft_size in [{fft_size}]"
     )

@@ -158,11 +158,11 @@ class SpectrumAnalyser(DefaultIP):
         by other classes as they control the SSR words.
         """
         self.ssr_mode = 3
-        self.ssr_packetsize = 512
+        self.ssr_packetsize = 1024
         
         """Window Registers and type
         """
-        self._window_packetsize = 4096
+        self._window_packetsize = 8192
         self._window_address = 0
         self._window_transfer = 0
         
@@ -181,7 +181,7 @@ class SpectrumAnalyser(DefaultIP):
         
         """Auto DMA Registers and buffer initialisation
         """
-        self._dma_length = 4096
+        self._dma_length = 8192
         self._buffer = [allocate(shape=(self._dma_length,), dtype=np.single) for x in range(0, 3) ]
         self._dma_bufferaddress_0 = self._buffer[0].device_address
         self._dma_bufferaddress_1 = self._buffer[0].device_address
