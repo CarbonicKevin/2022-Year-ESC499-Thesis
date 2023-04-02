@@ -3,11 +3,10 @@ import shutil
 
 board = "RFSoC2x2"
 fft_ip_dict = {
-    '4096' : '1.0',
-    '8192' : '1.0',
-    '16384': '1.0',
-    '32768': '1.0',
-    '65536': '1.0'
+    '8192' : '1.1',
+    '16384': '1.1',
+    '32768': '1.1',
+    '65536': '1.1'
 }
 
 def file_replace_string(filepath:os.path, oldstr:str, newstr:str):

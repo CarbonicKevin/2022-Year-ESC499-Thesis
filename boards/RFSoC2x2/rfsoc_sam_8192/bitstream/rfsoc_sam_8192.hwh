@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar 21 19:27:19 2023" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr  2 03:32:51 2023" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="zynquplusRFSOC" DEVICE="xczu28dr" NAME="rfsoc_sam_8192" PACKAGE="ffvg1517" SPEEDGRADE="-2"/>
 
@@ -17,46 +17,6 @@
     <PORT DIR="I" NAME="vin2_01_v_p" SIGIS="undef" SIGNAME="radio_rfdc_vin2_01_p">
       <CONNECTIONS>
         <CONNECTION INSTANCE="radio_rfdc" PORT="vin2_01_p"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clk_clk_n" SIGIS="clk" SIGNAME="clk_wiz_256M_clk_in1_n">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_256M" PORT="clk_in1_n"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clk_clk_p" SIGIS="clk" SIGNAME="clk_wiz_256M_clk_in1_p">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="clk_wiz_256M" PORT="clk_in1_p"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="sysref_in_diff_n" SIGIS="undef" SIGNAME="radio_rfdc_sysref_in_n">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="sysref_in_n"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="I" NAME="sysref_in_diff_p" SIGIS="undef" SIGNAME="radio_rfdc_sysref_in_p">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="sysref_in_p"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="vout00_v_n" SIGIS="undef" SIGNAME="radio_rfdc_vout00_n">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="vout00_n"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="vout00_v_p" SIGIS="undef" SIGNAME="radio_rfdc_vout00_p">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="vout00_p"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="vout10_v_n" SIGIS="undef" SIGNAME="radio_rfdc_vout10_n">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="vout10_n"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT DIR="O" NAME="vout10_v_p" SIGIS="undef" SIGNAME="radio_rfdc_vout10_p">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="vout10_p"/>
       </CONNECTIONS>
     </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="dac1_clk_clk_n" SIGIS="clk" SIGNAME="radio_rfdc_dac1_clk_n">
@@ -79,6 +39,46 @@
         <CONNECTION INSTANCE="radio_rfdc" PORT="dac0_clk_p"/>
       </CONNECTIONS>
     </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clk_clk_n" SIGIS="clk" SIGNAME="clk_wiz_256M_clk_in1_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_256M" PORT="clk_in1_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="sys_clk_clk_p" SIGIS="clk" SIGNAME="clk_wiz_256M_clk_in1_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_wiz_256M" PORT="clk_in1_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="vout00_v_n" SIGIS="undef" SIGNAME="radio_rfdc_vout00_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="vout00_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="vout00_v_p" SIGIS="undef" SIGNAME="radio_rfdc_vout00_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="vout00_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="vout10_v_n" SIGIS="undef" SIGNAME="radio_rfdc_vout10_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="vout10_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="vout10_v_p" SIGIS="undef" SIGNAME="radio_rfdc_vout10_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="vout10_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sysref_in_diff_n" SIGIS="undef" SIGNAME="radio_rfdc_sysref_in_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="sysref_in_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="sysref_in_diff_p" SIGIS="undef" SIGNAME="radio_rfdc_sysref_in_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="sysref_in_p"/>
+      </CONNECTIONS>
+    </PORT>
     <PORT DIR="I" NAME="vin0_01_v_n" SIGIS="undef" SIGNAME="radio_rfdc_vin0_01_n">
       <CONNECTIONS>
         <CONNECTION INSTANCE="radio_rfdc" PORT="vin0_01_n"/>
@@ -89,16 +89,6 @@
         <CONNECTION INSTANCE="radio_rfdc" PORT="vin0_01_p"/>
       </CONNECTIONS>
     </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc2_clk_clk_n" SIGIS="clk" SIGNAME="radio_rfdc_adc2_clk_n">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="adc2_clk_n"/>
-      </CONNECTIONS>
-    </PORT>
-    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc2_clk_clk_p" SIGIS="clk" SIGNAME="radio_rfdc_adc2_clk_p">
-      <CONNECTIONS>
-        <CONNECTION INSTANCE="radio_rfdc" PORT="adc2_clk_p"/>
-      </CONNECTIONS>
-    </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc0_clk_clk_n" SIGIS="clk" SIGNAME="radio_rfdc_adc0_clk_n">
       <CONNECTIONS>
         <CONNECTION INSTANCE="radio_rfdc" PORT="adc0_clk_n"/>
@@ -107,6 +97,16 @@
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc0_clk_clk_p" SIGIS="clk" SIGNAME="radio_rfdc_adc0_clk_p">
       <CONNECTIONS>
         <CONNECTION INSTANCE="radio_rfdc" PORT="adc0_clk_p"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc2_clk_clk_n" SIGIS="clk" SIGNAME="radio_rfdc_adc2_clk_n">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="adc2_clk_n"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="adc2_clk_clk_p" SIGIS="clk" SIGNAME="radio_rfdc_adc2_clk_p">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="radio_rfdc" PORT="adc2_clk_p"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -1709,6 +1709,283 @@
             <CONNECTION INSTANCE="rst_ps8_100M" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" LEFT="39" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="M01_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M01_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M01_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="M01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="M01_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M01_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M01_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M01_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M01_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="39" NAME="M01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="M01_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M01_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M01_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="M01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M01_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M01_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="39" NAME="M02_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="M02_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M02_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M02_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="M02_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="M02_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M02_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M02_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M02_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M02_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M02_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="39" NAME="M02_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="M02_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M02_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M02_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="M02_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M02_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="M02_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="M02_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="17" NAME="M00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="17" NAME="M00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rready"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="15" NAME="S00_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_S00_AXI_awid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e" PORT="maxigp2_awid"/>
@@ -1902,283 +2179,6 @@
         <PORT DIR="I" NAME="S00_AXI_rready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_S00_AXI_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="zynq_ultra_ps_e" PORT="maxigp2_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="17" NAME="M00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wstrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="17" NAME="M00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M00_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_rfdc" PORT="s_axi_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="2" NAME="M01_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M01_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M01_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M01_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M01_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wstrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M01_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M01_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M01_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M01_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M01_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M01_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="2" NAME="M01_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M01_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M01_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M01_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M01_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M01_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M01_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_axi_interconnect_ps" PORT="S00_AXI_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M02_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="2" NAME="M02_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M02_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M02_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wstrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M02_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="39" NAME="M02_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="2" NAME="M02_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M02_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M02_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="M02_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="M02_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M02_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="S00_AXI_rready"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -2862,101 +2862,6 @@
             <CONNECTION INSTANCE="radio_proc_sys_reset_adc0" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" LEFT="39" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="S00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wstrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="39" NAME="S00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arprot">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arprot"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="S00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rready"/>
-          </CONNECTIONS>
-        </PORT>
         <PORT DIR="O" NAME="M00_AXI_awaddr" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_M00_AXI_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_receiver_channel_00_decimator" PORT="xsg_bwselector_s_axi_awaddr"/>
@@ -3129,6 +3034,101 @@
         <PORT DIR="O" NAME="M01_AXI_rready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_M01_AXI_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Lite_RREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="39" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_awready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="S00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_wvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_wready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_bvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_bready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="39" NAME="S00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arprot">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arprot"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_arready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="S00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_rvalid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_axi_interconnect_S00_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M00_AXI_rready"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
@@ -3495,9 +3495,9 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2112952594" FULLNAME="/radio/receiver/channel_00/spectrum_analyser" HWVERSION="1.0" INSTANCE="radio_receiver_channel_00_spectrum_analyser" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SpectrumAnalyser8192" VLNV="xilinx.com:ip:SpectrumAnalyser8192:1.0">
+    <MODULE COREREVISION="2112969006" FULLNAME="/radio/receiver/channel_00/spectrum_analyser" HWVERSION="1.1" INSTANCE="radio_receiver_channel_00_spectrum_analyser" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SpectrumAnalyser8192" VLNV="xilinx.com:ip:SpectrumAnalyser8192:1.1">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="c:/Users/kevin/Documents/Github/thesis/boards/ip/iprepo/SpectrumAnalyser8192_v1_0/doc/doc_arch_axi4_lite_stream.jpg"/>
+        <DOCUMENT SOURCE="c:/Users/kevin/Documents/Github/thesis/boards/ip/iprepo/SpectrumAnalyser8192_v1_1/doc/doc_arch_axi4_lite_stream.jpg"/>
       </DOCUMENTS>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="AXI4_Lite" NAME="reg0" RANGE="65536" USAGE=""/>
@@ -4347,6 +4347,93 @@
             <CONNECTION INSTANCE="radio_proc_sys_reset_adc2" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" NAME="M00_AXI_awaddr" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awaddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wstrb"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_araddr" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_araddr"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_arvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_arready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rdata"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rresp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rvalid"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rready"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="39" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_S00_AXI_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M01_AXI_awaddr"/>
@@ -4440,93 +4527,6 @@
         <PORT DIR="I" LEFT="0" NAME="S00_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_S00_AXI_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_receiver_m_axi_interconnect" PORT="M01_AXI_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_awaddr" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awaddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_awready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wstrb"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_wready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_bready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_araddr" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_araddr"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_arvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_arready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rdata"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rresp"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rvalid"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M00_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_20_decimator" PORT="xsg_bwselector_s_axi_rready"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_axi_interconnect_M01_AXI_awaddr">
@@ -4980,9 +4980,9 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="2112952594" FULLNAME="/radio/receiver/channel_20/spectrum_analyser" HWVERSION="1.0" INSTANCE="radio_receiver_channel_20_spectrum_analyser" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SpectrumAnalyser8192" VLNV="xilinx.com:ip:SpectrumAnalyser8192:1.0">
+    <MODULE COREREVISION="2112969006" FULLNAME="/radio/receiver/channel_20/spectrum_analyser" HWVERSION="1.1" INSTANCE="radio_receiver_channel_20_spectrum_analyser" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SpectrumAnalyser8192" VLNV="xilinx.com:ip:SpectrumAnalyser8192:1.1">
       <DOCUMENTS>
-        <DOCUMENT SOURCE="c:/Users/kevin/Documents/Github/thesis/boards/ip/iprepo/SpectrumAnalyser8192_v1_0/doc/doc_arch_axi4_lite_stream.jpg"/>
+        <DOCUMENT SOURCE="c:/Users/kevin/Documents/Github/thesis/boards/ip/iprepo/SpectrumAnalyser8192_v1_1/doc/doc_arch_axi4_lite_stream.jpg"/>
       </DOCUMENTS>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="AXI4_Lite" NAME="reg0" RANGE="65536" USAGE=""/>
@@ -6553,6 +6553,185 @@
             <CONNECTION INSTANCE="radio_proc_sys_reset_adc2" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWADDR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWADDR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="S00_AXI_awlen" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWLEN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWLEN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awsize" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWSIZE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWSIZE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="S00_AXI_awburst" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWBURST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWBURST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awlock" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWLOCK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWLOCK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S00_AXI_awcache" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWCACHE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWCACHE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWPROT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWPROT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_awregion" SIGIS="undef"/>
+        <PORT DIR="I" NAME="S00_AXI_awqos" SIGIS="undef"/>
+        <PORT DIR="I" NAME="S00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWVALID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_awready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWREADY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="S00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WSTRB">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WSTRB"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_wlast" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WLAST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WLAST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WVALID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_wready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WREADY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_bid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BRESP">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BRESP"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BVALID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_bready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BREADY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="S00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARADDR">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARADDR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="7" NAME="S00_AXI_arlen" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARLEN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARLEN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arsize" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARSIZE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARSIZE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="S00_AXI_arburst" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARBURST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARBURST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arlock" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARLOCK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARLOCK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="S00_AXI_arcache" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARCACHE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARCACHE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARPROT">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARPROT"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_arregion" SIGIS="undef"/>
+        <PORT DIR="I" NAME="S00_AXI_arqos" SIGIS="undef"/>
+        <PORT DIR="I" NAME="S00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARVALID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_arready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARREADY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="S00_AXI_rid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="S00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RDATA">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="S00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RRESP">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RRESP"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_rlast" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RLAST">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RLAST"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="S00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RVALID">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="S00_AXI_rready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RREADY">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RREADY"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="O" LEFT="1" NAME="M00_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="axi_smc_S00_AXI_awid">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_smc" PORT="S00_AXI_awid"/>
@@ -6738,185 +6917,6 @@
         <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="axi_smc_S00_AXI_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="axi_smc" PORT="S00_AXI_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="7" NAME="S00_AXI_awlen" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWLEN">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWLEN"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awsize" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWSIZE">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWSIZE"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="S00_AXI_awburst" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWBURST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWBURST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_awlock" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWLOCK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWLOCK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S00_AXI_awcache" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWCACHE">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWCACHE"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_awprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWPROT">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWPROT"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_awregion" SIGIS="undef"/>
-        <PORT DIR="I" NAME="S00_AXI_awqos" SIGIS="undef"/>
-        <PORT DIR="I" NAME="S00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWVALID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_awready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_AWREADY">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_AWREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="S00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WDATA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WSTRB">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WSTRB"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_wlast" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WLAST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WLAST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WVALID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_wready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_WREADY">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_WREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_bid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BRESP">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BVALID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_bready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Wr_BREADY">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Wr_BREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="S00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARADDR">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="7" NAME="S00_AXI_arlen" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARLEN">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARLEN"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arsize" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARSIZE">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARSIZE"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="S00_AXI_arburst" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARBURST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARBURST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="0" NAME="S00_AXI_arlock" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARLOCK">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARLOCK"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="3" NAME="S00_AXI_arcache" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARCACHE">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARCACHE"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="2" NAME="S00_AXI_arprot" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARPROT">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARPROT"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_arregion" SIGIS="undef"/>
-        <PORT DIR="I" NAME="S00_AXI_arqos" SIGIS="undef"/>
-        <PORT DIR="I" NAME="S00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARVALID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_arready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_ARREADY">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_ARREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="0" NAME="S00_AXI_rid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="S00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RDATA">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="1" NAME="S00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RRESP">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_rlast" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RLAST">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RLAST"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="S00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RVALID">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="S00_AXI_rready" SIGIS="undef" SIGNAME="radio_receiver_channel_00_spectrum_analyser_AXI4_Master_Rd_RREADY">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_receiver_channel_00_spectrum_analyser" PORT="AXI4_Master_Rd_RREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="S01_AXI_awid" RIGHT="0" SIGIS="undef" SIGNAME="radio_receiver_channel_20_spectrum_analyser_AXI4_Master_Wr_AWID">
@@ -9746,6 +9746,93 @@
             <CONNECTION INSTANCE="radio_proc_sys_reset_dac1" PORT="peripheral_aresetn"/>
           </CONNECTIONS>
         </PORT>
+        <PORT DIR="O" LEFT="15" NAME="M00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awaddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWADDR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wstrb">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WSTRB"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BRESP"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="15" NAME="M00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_araddr">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARADDR"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
+        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_arvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_arready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARREADY"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rdata">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RDATA"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rresp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RRESP"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rvalid">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RVALID"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RREADY"/>
+          </CONNECTIONS>
+        </PORT>
         <PORT DIR="I" LEFT="39" NAME="S00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_awaddr">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_axi_interconnect_ps" PORT="M01_AXI_awaddr"/>
@@ -9839,93 +9926,6 @@
         <PORT DIR="I" LEFT="0" NAME="S00_AXI_rready" RIGHT="0" SIGIS="undef" SIGNAME="radio_axi_interconnect_ps_M01_AXI_rready">
           <CONNECTIONS>
             <CONNECTION INSTANCE="radio_axi_interconnect_ps" PORT="M01_AXI_rready"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="M00_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awaddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_awprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_awvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_awready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_awready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_AWREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="31" NAME="M00_AXI_wdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="3" NAME="M00_AXI_wstrb" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wstrb">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WSTRB"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_wvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_wready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_wready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_WREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_bresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_bvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_bready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_bready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_BREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" LEFT="15" NAME="M00_AXI_araddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_araddr">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARADDR"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_arprot" SIGIS="undef"/>
-        <PORT DIR="O" NAME="M00_AXI_arvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_arvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_arready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_arready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_ARREADY"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="31" NAME="M00_AXI_rdata" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rdata">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RDATA"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" LEFT="1" NAME="M00_AXI_rresp" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rresp">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RRESP"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="I" NAME="M00_AXI_rvalid" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rvalid">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RVALID"/>
-          </CONNECTIONS>
-        </PORT>
-        <PORT DIR="O" NAME="M00_AXI_rready" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M00_AXI_rready">
-          <CONNECTIONS>
-            <CONNECTION INSTANCE="radio_transmitter_channel_00_control" PORT="AXI4_Lite_RREADY"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" LEFT="15" NAME="M01_AXI_awaddr" RIGHT="0" SIGIS="undef" SIGNAME="radio_transmitter_axi_interconnect_ps_M01_AXI_awaddr">

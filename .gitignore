@@ -1,0 +1,4 @@
+boards/ip/hdlcoder/hdl_prj
+boards/ip/hdlcoder/slprj
+*.slxc
+*.autosave
