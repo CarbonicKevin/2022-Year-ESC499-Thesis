@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="54" Path="C:/Users/kevin/Documents/Github/thesis/ip/hdlcoder/hdl_prj/ipcore/SpectrumAnalyserCustom_v1_1/prj_ip/prj_ip.xpr">
+<Project Version="7" Minor="54" Path="C:/Users/kevin/Documents/Github/thesis/boards/ip/hdlcoder_custom/hdl_prj/ipcore/SpectrumAnalyserCustom_v1_1/prj_ip/prj_ip.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="a06af9f056b4435a8fde014dfb1d3b59"/>
+    <Option Name="Id" Val="1a8c5d649b8d414e90c3d2ad5808f8dc"/>
     <Option Name="Part" Val="xczu28dr-ffvg1517-2-e"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -410,565 +410,277 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -980,13 +692,13 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1004,7 +716,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -1718,277 +1430,277 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -2006,7 +1718,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -2054,7 +1766,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -2090,7 +1802,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd">
+      <File Path="$PPRDIR/../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>

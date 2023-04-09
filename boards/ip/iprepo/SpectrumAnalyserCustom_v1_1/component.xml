@@ -634,7 +634,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e957e7f9</spirit:value>
+            <spirit:value>96e447f7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -650,7 +650,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>viewChecksum</spirit:name>
-            <spirit:value>e957e7f9</spirit:value>
+            <spirit:value>96e447f7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1892,379 +1892,187 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2272,11 +2080,11 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2288,7 +2096,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2764,187 +2572,187 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2956,7 +2764,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -2988,7 +2796,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3012,7 +2820,7 @@
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
       </spirit:file>
       <spirit:file>
@@ -3122,7 +2930,7 @@
       <spirit:file>
         <spirit:name>hdl/vhdl/SpectrumAnalyserCustom.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>CHECKSUM_516cf8c6</spirit:userFileType>
+        <spirit:userFileType>CHECKSUM_af305d85</spirit:userFileType>
       </spirit:file>
     </spirit:fileSet>
     <spirit:fileSet>
@@ -3408,472 +3216,232 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd</spirit:name>
-        <spirit:fileType>vhdlSource</spirit:fileType>
-        <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
-      </spirit:file>
-      <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3883,12 +3451,12 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -3903,7 +3471,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -4498,232 +4066,232 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block2.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block12.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block13.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block14.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block15.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block16.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -4738,7 +4306,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -4778,7 +4346,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -4808,7 +4376,7 @@
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
       <spirit:file>
-        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd</spirit:name>
+        <spirit:name>hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd</spirit:name>
         <spirit:fileType>vhdlSource</spirit:fileType>
         <spirit:userFileType>USED_IN_ipstatic</spirit:userFileType>
       </spirit:file>
@@ -5020,15 +4588,15 @@
       </xilinx:taxonomies>
       <xilinx:displayName>SpectrumAnalyserCustom</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>2112948776</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2023-03-19T02:57:23Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>2112972953</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-04-04T21:53:47Z</xilinx:coreCreationDateTime>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
       <xilinx:xilinxVersion>2020.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="5818afee"/>
       <xilinx:checksum xilinx:scope="addressSpaces" xilinx:value="464dec51"/>
       <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="fa7bbd03"/>
-      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="5b91960b"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="3a04d42d"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="28e7d71b"/>
       <xilinx:checksum xilinx:scope="parameters" xilinx:value="978722b6"/>
     </xilinx:packagingInfo>

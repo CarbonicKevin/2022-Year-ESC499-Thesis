@@ -158,16 +158,16 @@ class SpectrumAnalyser(DefaultIP):
         by other classes as they control the SSR words.
         """
         self.ssr_mode = 3
-        self.ssr_packetsize = 512
+        self.ssr_packetsize = 1024
         
         """Window Registers and type
         """
-        self._window_packetsize = 4096
+        self._window_packetsize = 8192
         self._window_address = 0
         self._window_transfer = 0
         
-        self._window_squaresum = 4096
-        self._window_sum = 4096
+        self._window_squaresum = 8192
+        self._window_sum = 8192
         self._window_type = 'rectangular'
         
         """Spectrum Registers
@@ -181,7 +181,7 @@ class SpectrumAnalyser(DefaultIP):
         
         """Auto DMA Registers and buffer initialisation
         """
-        self._dma_length = 4096
+        self._dma_length = 8192
         self._buffer = [allocate(shape=(self._dma_length,), dtype=np.single) for x in range(0, 3) ]
         self._dma_bufferaddress_0 = self._buffer[0].device_address
         self._dma_bufferaddress_1 = self._buffer[0].device_address
@@ -196,7 +196,7 @@ class SpectrumAnalyser(DefaultIP):
         self._decimation_factor = decimation_factor
         self._update_frequency = update_frequency
         self._last_buffer = np.zeros(self._dma_length, dtype=np.single) - 300
-        self._number_samples = int(2**(self._spectrum_fftselector))
+        self._number_samples = int(2**(self._spectrum_fftselector+13))
         self._centre_frequency = centre_frequency
         self._nyquist_stopband = nyquist_stopband
         self._width = plot_width
@@ -344,11 +344,11 @@ class SpectrumAnalyser(DefaultIP):
         """The size of the FFT core in the spectrum analyser IP
         Core in hardware.
         """
-        return int(2**(self._spectrum_fftselector))
+        return int(2**(self._spectrum_fftselector+13))
     
     @fft_size.setter
     def fft_size(self, fft_size):
-        if fft_size in [65536, 32768, 16384, 8192, 4096]:
+        if fft_size in [65536, 32768, 16384, 8192]:
             running = False
             if self.dma_enable:
                 self.dma_enable = 0
@@ -361,12 +361,12 @@ class SpectrumAnalyser(DefaultIP):
             self._dma_bufferaddress_0 = self._buffer[0].device_address
             self._dma_bufferaddress_1 = self._buffer[0].device_address
             self._dma_bufferaddress_2 = self._buffer[0].device_address
-            self._spectrum_fftselector = int(np.log2(fft_size))
+            self._spectrum_fftselector = int(np.log2(fft_size)-13)
             self._window_packetsize = fft_size
             self.window = self._window_type
             self.ssr_packetsize = int(fft_size/8)
             self.plot.number_samples = fft_size
-            self._number_samples = int(2**(self._spectrum_fftselector))
+            self._number_samples = int(2**(self._spectrum_fftselector+13))
             self._spectrum_typescale = \
                 int(struct.unpack('!i',struct.pack('!f',float((self._sample_frequency/self._decimation_factor)/(self._number_samples))))[0])
             self._spectrum_powerscale = \

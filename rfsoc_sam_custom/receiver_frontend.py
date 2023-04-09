@@ -494,7 +494,7 @@ class RadioAnalyserGUI():
                         'nyquist_stopband' : 80,
                         'decimation_factor' : self.analyser.decimation_factor,
                         'calibration_mode' : self.analyser.calibration_mode,
-                        'fftsize' : 4096,
+                        'fftsize' : 8192,
                         'spectrum_type' : self.analyser.spectrum_type,
                         'spectrum_units' : self.analyser.spectrum_units,
                         'window' : 'hanning',
@@ -679,8 +679,8 @@ class RadioAnalyserGUI():
         
         self._widgets.update({'fftsize' : 
                               DropDown(callback=self._update_config,
-                                       options=[65536, 32768, 16384, 8192, 4096],
-                                       value=4096,
+                                       options=[65536, 32768, 16384, 8192],
+                                       value=8192,
                                        dict_id='fftsize',
                                        description = 'FFT Size:')})
         

@@ -173,56 +173,8 @@ add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block1.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_13_block1.vhd}
@@ -230,67 +182,67 @@ add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator14_blo
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_14_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_14_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_15_1_block.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator15_block.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_15_block.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_15.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator16.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_16.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_16.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_65536.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block2.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block2.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd}
-add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd}
+add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_8192.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_FFT_Core.vhd}
 add_files -norecurse {../hdl/vhdl/SpectrumAnalyserCustom_src_nfp_wire_single.vhd}
@@ -385,7 +337,7 @@ foreach family $Families {append IPSupportedFamily "{$family} {Production} "}
 set_property supported_families $IPSupportedFamily [ipx::current_core]
 set_property taxonomy {{/HDL Coder Generated IP}} [ipx::current_core]
 set_property description {HDL Coder generated IP} [ipx::current_core]
-set_property core_revision 2112948776 [ipx::current_core]
+set_property core_revision 2112972953 [ipx::current_core]
 
 # Add HDL source files to IP
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Spectrum_Analyser_pkg.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
@@ -1072,206 +1024,14 @@ ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vh
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_4096.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block1.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block1.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block17.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block1.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block1.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
@@ -1300,10 +1060,10 @@ ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_15_1_block.vhd} [ipx:
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_15_1_block.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_15_1_block.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_15_1_block.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block18.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator15_block.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator15_block.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator15_block.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
@@ -1328,206 +1088,206 @@ ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_16.vhd} [ipx
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_16.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_16.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_16.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block1.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_65536.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_65536.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_65536.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_65536.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block25.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block26.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block27.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block28.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_2_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_3_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block19.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_3_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_4_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_5_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block20.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_5_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_6_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_7_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block21.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_7_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_8_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_9_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block22.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_9_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_10_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_11_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block23.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_11_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF2_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_12_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_TWDLROM_13_1_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block29.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_Complex4Multiply_block24.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_SDFCommutator13_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
@@ -1536,14 +1296,14 @@ ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block2.vhd
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_SDF1_13_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block5.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
-ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
-set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block3.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX22FFT_CTRL1_1_block4.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
+ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]
+set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_RADIX2FFT_bitNatural_block2.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_8192.vhd} [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]
 set_property type {{vhdlSource}} [ipx::get_files {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_8192.vhd} -of_objects [ipx::get_file_groups xilinx_anylanguagesynthesis -of_objects [ipx::current_core]]]
 ipx::add_file {hdl/vhdl/SpectrumAnalyserCustom_src_FFT_HDL_Optimized_8192.vhd} [ipx::get_file_groups xilinx_anylanguagebehavioralsimulation -of_objects [ipx::current_core]]

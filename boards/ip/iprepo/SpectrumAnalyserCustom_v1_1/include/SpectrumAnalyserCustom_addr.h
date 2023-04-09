@@ -1,7 +1,7 @@
 /*
  * File Name:         hdl_prj\ipcore\SpectrumAnalyserCustom_v1_1\include\SpectrumAnalyserCustom_addr.h
  * Description:       C Header File
- * Created:           2023-03-18 22:56:45
+ * Created:           2023-04-04 17:53:13
 */
 
 #ifndef SPECTRUMANALYSERCUSTOM_H_
@@ -11,7 +11,7 @@
 #define  IPCore_Enable_SpectrumAnalyserCustom             0x4  //enabled (by default) when bit 0 is 0x1
 #define  AXI4_Master_Rd_BaseAddr_SpectrumAnalyserCustom   0x8  //Base Address offset for AXI4 Master Read
 #define  AXI4_Master_Wr_BaseAddr_SpectrumAnalyserCustom   0xC  //Base Address offset for AXI4 Master Write
-#define  IPCore_Timestamp_SpectrumAnalyserCustom          0x10  //contains unique IP timestamp (yymmddHHMM): 2303182256
+#define  IPCore_Timestamp_SpectrumAnalyserCustom          0x10  //contains unique IP timestamp (yymmddHHMM): 2304041753
 #define  Packet_Size_Data_SpectrumAnalyserCustom          0x104  //data register for Inport Packet Size
 #define  SSR_Mode_Data_SpectrumAnalyserCustom             0x108  //data register for Inport SSR Mode
 #define  Units_Data_SpectrumAnalyserCustom                0x10C  //data register for Inport Units
