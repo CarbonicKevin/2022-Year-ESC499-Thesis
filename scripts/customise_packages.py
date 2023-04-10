@@ -6,7 +6,7 @@ fft_ip_dict = {
     'custom' : {
         'overlay_name' : 'rfsoc_sam_custom',
         'ip_repo_name' : 'SpectrumAnalyserCustom',
-        'ip_repo_ver'  : '1.1',
+        'ip_repo_ver'  : '1.2',
         'default_size' : 8192,
         'capable_size' : [65536, 32768, 16384, 8192]
     }

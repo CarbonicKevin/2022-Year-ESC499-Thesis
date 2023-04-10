@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Apr  9 17:38:52 2023
+# Process ID: 48212
+# Current directory: C:/Users/kevin/Documents/Github/thesis/boards/ip/hdlcoder_custom/hdl_prj/ipcore/SpectrumAnalyserCustom_v1_2/prj_ip
+# Command line: vivado.exe -mode batch -notrace -source vivado_ip_package.tcl
+# Log file: C:/Users/kevin/Documents/Github/thesis/boards/ip/hdlcoder_custom/hdl_prj/ipcore/SpectrumAnalyserCustom_v1_2/prj_ip/vivado.log
+# Journal file: C:/Users/kevin/Documents/Github/thesis/boards/ip/hdlcoder_custom/hdl_prj/ipcore/SpectrumAnalyserCustom_v1_2/prj_ip\vivado.jou
+#-----------------------------------------------------------
+source vivado_ip_package.tcl -notrace
