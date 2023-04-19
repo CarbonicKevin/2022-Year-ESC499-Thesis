@@ -1,0 +1,384 @@
+*************************************************************
+FileName = pre_adc_pcb2.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Solder
+      File : pre_adc_pcb2.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : pre_adc_pcb2.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D41
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : pre_adc_pcb2.GM23
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : pre_adc_pcb2.GM21
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : pre_adc_pcb2.GM20
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Component Center
+      File : pre_adc_pcb2.GM16
+
+    Adding Layer      : Top Component Center
+
+
+Used DCodes :
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : pre_adc_pcb2.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : pre_adc_pcb2.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D52
+    D53
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : pre_adc_pcb2.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : pre_adc_pcb2.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : pre_adc_pcb2.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : pre_adc_pcb2.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : pre_adc_pcb2.GM2
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : pre_adc_pcb2.GM3
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Board Outline
+      File : pre_adc_pcb2.GM4
+
+    Adding Layer      : Board Outline
+
+
+Used DCodes :
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : pre_adc_pcb2.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D55
+    D56
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Center
+      File : pre_adc_pcb2.GM24
+
+    Adding Layer      : Bottom Component Center
+
+
+Used DCodes :
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : pre_adc_pcb2.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D41
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : pre_adc_pcb2.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D45
+    D46
+    D47
+    D48
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : pre_adc_pcb2.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D45
+    D46
+    D47
+    D48
+    D50
+    D51
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : pre_adc_pcb2.GM5
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : pre_adc_pcb2.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+    D13
+    D55
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : pre_adc_pcb2.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D57
+    D58
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : pre_adc_pcb2.GG1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D57
+*************************************************************
+

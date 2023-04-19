@@ -1,0 +1,39 @@
+* source PRE_ADC_CIRCUIT
+R_delyiannis_filter_R2         delyiannis_filter_N03304 N42996  53.05 TC=0,0 
+C_delyiannis_filter_C1         delyiannis_filter_N03272
++  delyiannis_filter_N03304  8.25p  TC=0,0 
+R_delyiannis_filter_R3         0 delyiannis_filter_N03272  636.6 TC=0,0 
+C_delyiannis_filter_C2         delyiannis_filter_N03272 N42996  8.25p  TC=0,0 
+R_delyiannis_filter_R1         N43000 delyiannis_filter_N03272  26.5 TC=0,0 
+X_delyiannis_filter_U1         0 delyiannis_filter_N03304 N42996 N10244 N10256
++  OPA855
+X_unity_amplifier_U1         N42920 N43000 N43000 N10244 N10256 OPA855
+V_Vsrc+         N10244 0 2.5
+V_Vsrc-         0 N10256 2.5
+V_Vin         N42920 0  AC 100m
++SIN 0 100m 500Meg 0 0 0
+C_delyiannis_filter1_C2         delyiannis_filter1_N03272 N19213  8.25p  TC=0,0
++  
+X_delyiannis_filter1_U1         0 delyiannis_filter1_N03304 N19213 N10244
++  N10256 OPA855
+C_delyiannis_filter1_C1         delyiannis_filter1_N03272
++  delyiannis_filter1_N03304  8.25p  TC=0,0 
+R_delyiannis_filter1_R1         N42996 delyiannis_filter1_N03272  26.5 TC=0,0 
+R_delyiannis_filter1_R3         0 delyiannis_filter1_N03272  636.6 TC=0,0 
+R_delyiannis_filter1_R2         delyiannis_filter1_N03304 N19213  53.05 TC=0,0 
+C_delyiannis_filter2_C2         delyiannis_filter2_N03272 N43560  8.25p  TC=0,0
++  
+X_delyiannis_filter2_U1         0 delyiannis_filter2_N03304 N43560 N10244
++  N10256 OPA855
+C_delyiannis_filter2_C1         delyiannis_filter2_N03272
++  delyiannis_filter2_N03304  8.25p  TC=0,0 
+R_delyiannis_filter2_R1         N19213 delyiannis_filter2_N03272  26.5 TC=0,0 
+R_delyiannis_filter2_R3         0 delyiannis_filter2_N03272  636.6 TC=0,0 
+R_delyiannis_filter2_R2         delyiannis_filter2_N03304 N43560  53.05 TC=0,0 
+X_level_shifter_U1         level_shifter_N01603 level_shifter_N00293 N41004
++  N10244 N10256 OPA855
+R_level_shifter_R2_         level_shifter_N01603 N39588  400 TC=0,0 
+R_level_shifter_R1         0 level_shifter_N00293  100 TC=0,0 
+R_level_shifter_R2         level_shifter_N00293 N41004  400 TC=0,0 
+R_level_shifter_R1_         N43560 level_shifter_N01603  100 TC=0,0 
+V_Voff1         N39588 0 0.5

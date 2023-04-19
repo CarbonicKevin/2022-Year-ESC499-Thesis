@@ -1,0 +1,65 @@
+
+**** 08/18/22 09:59:09 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-transient"  [ C:\Users\kevin\OneDrive\University\Y4S1_2024_Fall_Semester\Thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20ns 0ns 1p 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N14970])
+.PROBE64 N([VOUT])
+.INC "..\main.net" 
+
+
+
+**** INCLUDING main.net ****
+* source PRE_ADC_CIRCUIT
+.EXTERNAL INPUT Vout
+R_delyiannis_filter_R2         delyiannis_filter_N03304 VOUT  2 TC=0,0 
+C_delyiannis_filter_C1         delyiannis_filter_N03272
++  delyiannis_filter_N03304  5p  TC=0,0 
+R_delyiannis_filter_R3         N10851 delyiannis_filter_N03272  1906 TC=0,0 
+C_delyiannis_filter_C2         delyiannis_filter_N03272 VOUT  5p  TC=0,0 
+R_delyiannis_filter_R1         0 delyiannis_filter_N03272  136 TC=0,0 
+X_delyiannis_filter_U1         N10851 delyiannis_filter_N03304 VOUT N10244
++  N10256 OPA855
+X_unity_amplifier_U1         0 N14970 N14970 N10244 N10256 OPA855
+V_Vsrc+         N10244 0 5
+V_Vsrc-         0 N10256 5
+V_Vin         M_UN0001 0  AC 100m
++SIN 0 100m 500e6 0 0 0
+V_Voff         N10851 0 0.5
+
+**** RESUMING transient.cir ****
+.END
+
+INFO(ORPSIM-15423): Unable to find index file nom.ind for library file nom.lib.
+
+INFO(ORPSIM-15422): Making new index file nom.ind for library file nom.lib.
+
+Index has 517 entries from 5 file(s).
+
+ERROR(ORPSIM-15108): Subcircuit OPA855 used by X_delyiannis_filter_U1 is undefined
+
+ERROR(ORPSIM-15108): Subcircuit OPA855 used by X_unity_amplifier_U1 is undefined
+

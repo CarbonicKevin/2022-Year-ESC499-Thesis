@@ -1,0 +1,557 @@
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 1Meg 100Meg
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N10402])
+.PROBE64 N([N12507])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRE_ADC_CIRCUIT
+.EXTERNAL INPUT Vfinal
+R_delyiannis_filter_R2         delyiannis_filter_N03304 VFINAL  5.23m TC=0,0 
+C_delyiannis_filter_C1         delyiannis_filter_N03272
++  delyiannis_filter_N03304  40.54n  TC=0,0 
+R_delyiannis_filter_R3         N10851 delyiannis_filter_N03272  15.7m TC=0,0 
+C_delyiannis_filter_C2         delyiannis_filter_N03272 VFINAL  40.54n  TC=0,0 
+R_delyiannis_filter_R1         0 delyiannis_filter_N03272  15.7m TC=0,0 
+X_delyiannis_filter_U1         N10851 delyiannis_filter_N03304 VFINAL N10244
++  N10256 OPA855
+X_unity_amplifier_U1         N10402 N12507 N12507 N10244 N10256 OPA855
+V_Vsrc+         N10244 0 5
+V_Vsrc-         0 N10256 5
+V_V1         N10402 0  AC 1
++SIN 0 1 500e6 0 0 0
+V_Voff         N10851 0 0.5
+
+**** RESUMING AC.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_unity_amplifier_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_delyiannis_filter_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_unity_amplifier_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N10244)    5.0000 (N10256)   -5.0000 (N10402)    0.0000 (N10851)     .5000     
+
+(N12507)-567.7E-06 (VFINAL)     .4994 (X_unity_amplifier_U1.ZO)-567.7E-06       
+
+(delyiannis_filter_N03272)     .2500  (delyiannis_filter_N03304)     .4994      
+
+(X_unity_amplifier_U1.MID)-350.0E-12  (X_delyiannis_filter_U1.ZO)     .4994     
+
+(X_unity_amplifier_U1.CMRR)-351.2E-12 (X_unity_amplifier_U1.ESDN)-567.8E-06     
+
+(X_unity_amplifier_U1.ESDP)-120.1E-09 (X_delyiannis_filter_U1.MID)-350.0E-12    
+
+(X_unity_amplifier_U1.CLAMP)-465.5E-06                                          
+
+(X_unity_amplifier_U1.PSRRN) 427.6E-06                                          
+
+(X_unity_amplifier_U1.PSRRP) 259.8E-06                                          
+
+(X_unity_amplifier_U1.VCC_B)    5.0000                                          
+
+(X_unity_amplifier_U1.VEE_B)   -5.0000                                          
+
+(X_unity_amplifier_U1.VIMON)     .0121                                          
+
+(X_delyiannis_filter_U1.CMRR) 4.967E-06                                         
+
+(X_delyiannis_filter_U1.ESDN)     .4994                                         
+
+(X_delyiannis_filter_U1.ESDP)     .5000                                         
+
+(X_unity_amplifier_U1.AOLNET) 61.72E-09                                         
+
+(X_unity_amplifier_U1.N06456)-120.1E-09                                         
+
+(X_unity_amplifier_U1.N10561)-400.1E-06                                         
+
+(X_unity_amplifier_U1.N10570)-400.1E-06                                         
+
+(X_unity_amplifier_U1.N11984)-400.1E-06                                         
+
+(X_unity_amplifier_U1.N11991)-567.8E-06                                         
+
+(X_unity_amplifier_U1.N25816)-567.8E-06                                         
+
+(X_unity_amplifier_U1.N28602)   -3.9000                                         
+
+(X_unity_amplifier_U1.N30136)    4.6000                                         
+
+(X_unity_amplifier_U1.N30913)-567.8E-06                                         
+
+(X_unity_amplifier_U1.N31014)-567.8E-06                                         
+
+(X_unity_amplifier_U1.N35675)    4.2118                                         
+
+(X_unity_amplifier_U1.N35813)    4.2118                                         
+
+(X_unity_amplifier_U1.N38050)   -3.9799                                         
+
+(X_unity_amplifier_U1.N38096)   -3.9799                                         
+
+(X_unity_amplifier_U1.VOUT_S)-567.7E-06                                         
+
+(X_unity_amplifier_U1.X_U1.3)    0.0000                                         
+
+(X_unity_amplifier_U1.X_U1.4)    0.0000                                         
+
+(X_unity_amplifier_U1.X_U1.5)    0.0000                                         
+
+(X_unity_amplifier_U1.X_U1.6)    0.0000                                         
+
+(X_unity_amplifier_U1.X_U1.7)     .8338                                         
+
+(X_unity_amplifier_U1.X_U1.8)     .8338                                         
+
+(X_delyiannis_filter_U1.CLAMP)     .5785                                        
+
+(X_delyiannis_filter_U1.PSRRN) 427.6E-06                                        
+
+(X_delyiannis_filter_U1.PSRRP) 259.8E-06                                        
+
+(X_delyiannis_filter_U1.VCC_B)    5.0000                                        
+
+(X_delyiannis_filter_U1.VEE_B)   -5.0000                                        
+
+(X_delyiannis_filter_U1.VIMON)     .0123                                        
+
+(X_unity_amplifier_U1.N110431)     .0121                                        
+
+(X_unity_amplifier_U1.N112292)-567.7E-06                                        
+
+(X_unity_amplifier_U1.N317950)-350.0E-12                                        
+
+(X_unity_amplifier_U1.N406634)    5.0000                                        
+
+(X_unity_amplifier_U1.N406794)   -5.0000                                        
+
+(X_unity_amplifier_U1.N749288)-400.1E-06                                        
+
+(X_unity_amplifier_U1.VCC_CLP)    4.2118                                        
+
+(X_unity_amplifier_U1.VEE_CLP)   -3.9799                                        
+
+(X_unity_amplifier_U1.X_E_N.3)    0.0000                                        
+
+(X_unity_amplifier_U1.X_E_N.4)    0.0000                                        
+
+(X_unity_amplifier_U1.X_E_N.5)    0.0000                                        
+
+(X_unity_amplifier_U1.X_E_N.6)    0.0000                                        
+
+(X_unity_amplifier_U1.X_E_N.7)     .8338                                        
+
+(X_unity_amplifier_U1.X_E_N.8)     .8338                                        
+
+(X_delyiannis_filter_U1.AOLNET)-77.13E-06                                       
+
+(X_delyiannis_filter_U1.N06456)     .5000                                       
+
+(X_delyiannis_filter_U1.N10561)     .4996                                       
+
+(X_delyiannis_filter_U1.N10570)     .4996                                       
+
+(X_delyiannis_filter_U1.N11984)     .4996                                       
+
+(X_delyiannis_filter_U1.N11991)     .4994                                       
+
+(X_delyiannis_filter_U1.N25816)     .4994                                       
+
+(X_delyiannis_filter_U1.N28602)   -3.9000                                       
+
+(X_delyiannis_filter_U1.N30136)    4.6000                                       
+
+(X_delyiannis_filter_U1.N30913)     .4994                                       
+
+(X_delyiannis_filter_U1.N31014)     .4994                                       
+
+(X_delyiannis_filter_U1.N35675)    4.2118                                       
+
+(X_delyiannis_filter_U1.N35813)    4.2118                                       
+
+(X_delyiannis_filter_U1.N38050)   -3.9799                                       
+
+(X_delyiannis_filter_U1.N38096)   -3.9799                                       
+
+(X_delyiannis_filter_U1.VOUT_S)     .4994                                       
+
+(X_delyiannis_filter_U1.X_U1.3)    0.0000                                       
+
+(X_delyiannis_filter_U1.X_U1.4)    0.0000                                       
+
+(X_delyiannis_filter_U1.X_U1.5)    0.0000                                       
+
+(X_delyiannis_filter_U1.X_U1.6)    0.0000                                       
+
+(X_delyiannis_filter_U1.X_U1.7)     .8338                                       
+
+(X_delyiannis_filter_U1.X_U1.8)     .8338                                       
+
+(X_unity_amplifier_U1.N1254860)     .0107                                       
+
+(X_unity_amplifier_U1.N1446199)-450.5E-06                                       
+
+(X_unity_amplifier_U1.N1446217)-450.5E-06                                       
+
+(X_unity_amplifier_U1.N1461236) 13.66E-09                                       
+
+(X_unity_amplifier_U1.N1461246)-348.8E-12                                       
+
+(X_unity_amplifier_U1.N1461252)-746.5E-12                                       
+
+(X_unity_amplifier_U1.N1481243)   -3.5796                                       
+
+(X_unity_amplifier_U1.N1481253)-250.6E-06                                       
+
+(X_unity_amplifier_U1.N1481259) 909.4E-06                                       
+
+(X_unity_amplifier_U1.N1483677)    7.8892                                       
+
+(X_unity_amplifier_U1.N1483687) 427.6E-06                                       
+
+(X_unity_amplifier_U1.N1483693)    -.0093                                       
+
+(X_unity_amplifier_U1.N1483703)-427.6E-06                                       
+
+(X_unity_amplifier_U1.N1483713)     .0093                                       
+
+(X_unity_amplifier_U1.N1490067) 259.8E-06                                       
+
+(X_unity_amplifier_U1.N1492098) 175.8E-06                                       
+
+(X_unity_amplifier_U1.N1492108) 117.2E-06                                       
+
+(X_unity_amplifier_U1.N1492118) 117.2E-06                                       
+
+(X_unity_amplifier_U1.N1492126) 117.2E-06                                       
+
+(X_unity_amplifier_U1.N1492376) 117.2E-06                                       
+
+(X_unity_amplifier_U1.N1534615)     .0030                                       
+
+(X_unity_amplifier_U1.N1534625) 104.8E-06                                       
+
+(X_unity_amplifier_U1.N1534635) 104.8E-06                                       
+
+(X_unity_amplifier_U1.N1534645) 104.8E-06                                       
+
+(X_unity_amplifier_U1.N1534887) 104.8E-06                                       
+
+(X_unity_amplifier_U1.N1541593)     .0027                                       
+
+(X_unity_amplifier_U1.N1541603) 93.75E-06                                       
+
+(X_delyiannis_filter_U1.N110431)     .0123                                      
+
+(X_delyiannis_filter_U1.N112292)     .4994                                      
+
+(X_delyiannis_filter_U1.N317950)-350.0E-12                                      
+
+(X_delyiannis_filter_U1.N406634)    5.0000                                      
+
+(X_delyiannis_filter_U1.N406794)   -5.0000                                      
+
+(X_delyiannis_filter_U1.N749288)     .4996                                      
+
+(X_delyiannis_filter_U1.VCC_CLP)    4.2118                                      
+
+(X_delyiannis_filter_U1.VEE_CLP)   -3.9799                                      
+
+(X_delyiannis_filter_U1.X_E_N.3)    0.0000                                      
+
+(X_delyiannis_filter_U1.X_E_N.4)    0.0000                                      
+
+(X_delyiannis_filter_U1.X_E_N.5)    0.0000                                      
+
+(X_delyiannis_filter_U1.X_E_N.6)    0.0000                                      
+
+(X_delyiannis_filter_U1.X_E_N.7)     .8338                                      
+
+(X_delyiannis_filter_U1.X_E_N.8)     .8338                                      
+
+(X_unity_amplifier_U1.X_I_NP1.3)    0.0000                                      
+
+(X_unity_amplifier_U1.X_I_NP1.4)    0.0000                                      
+
+(X_unity_amplifier_U1.X_I_NP1.5)    0.0000                                      
+
+(X_unity_amplifier_U1.X_I_NP1.6)    0.0000                                      
+
+(X_unity_amplifier_U1.X_I_NP1.7)     .8338                                      
+
+(X_unity_amplifier_U1.X_I_NP1.8)     .8338                                      
+
+(X_delyiannis_filter_U1.N1254860)    5.5102                                     
+
+(X_delyiannis_filter_U1.N1446199)     .5598                                     
+
+(X_delyiannis_filter_U1.N1446217)     .5598                                     
+
+(X_delyiannis_filter_U1.N1461236)    -.0585                                     
+
+(X_delyiannis_filter_U1.N1461246)-4.972E-06                                     
+
+(X_delyiannis_filter_U1.N1461252)     .0017                                     
+
+(X_delyiannis_filter_U1.N1481243)   -3.5796                                     
+
+(X_delyiannis_filter_U1.N1481253)-250.6E-06                                     
+
+(X_delyiannis_filter_U1.N1481259) 909.4E-06                                     
+
+(X_delyiannis_filter_U1.N1483677)    7.8892                                     
+
+(X_delyiannis_filter_U1.N1483687) 427.6E-06                                     
+
+(X_delyiannis_filter_U1.N1483693)    -.0093                                     
+
+(X_delyiannis_filter_U1.N1483703)-427.6E-06                                     
+
+(X_delyiannis_filter_U1.N1483713)     .0093                                     
+
+(X_delyiannis_filter_U1.N1490067) 259.8E-06                                     
+
+(X_delyiannis_filter_U1.N1492098)     .0907                                     
+
+(X_delyiannis_filter_U1.N1492108)     .0605                                     
+
+(X_delyiannis_filter_U1.N1492118)     .0605                                     
+
+(X_delyiannis_filter_U1.N1492126)     .0605                                     
+
+(X_delyiannis_filter_U1.N1492376)     .0605                                     
+
+(X_delyiannis_filter_U1.N1534615)    1.5437                                     
+
+(X_delyiannis_filter_U1.N1534625)     .0541                                     
+
+(X_delyiannis_filter_U1.N1534635)     .0541                                     
+
+(X_delyiannis_filter_U1.N1534645)     .0541                                     
+
+(X_delyiannis_filter_U1.N1534887)     .0541                                     
+
+(X_delyiannis_filter_U1.N1541593)    1.3808                                     
+
+(X_delyiannis_filter_U1.N1541603)     .0484                                     
+
+(X_delyiannis_filter_U1.X_I_NP1.3)    0.0000                                    
+
+(X_delyiannis_filter_U1.X_I_NP1.4)    0.0000                                    
+
+(X_delyiannis_filter_U1.X_I_NP1.5)    0.0000                                    
+
+(X_delyiannis_filter_U1.X_I_NP1.6)    0.0000                                    
+
+(X_delyiannis_filter_U1.X_I_NP1.7)     .8338                                    
+
+(X_delyiannis_filter_U1.X_I_NP1.8)     .8338                                    
+
+(X_unity_amplifier_U1.X_VOS_VS_VCM.1)-400.1E-06                                 
+
+(X_delyiannis_filter_U1.X_VOS_VS_VCM.1)     .4996        
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vsrc+     -3.727E-02
+    V_Vsrc-     -3.724E-02
+    V_V1        -1.201E-05
+    V_Voff      -1.592E+01
+    X_delyiannis_filter_U1.V_VCM_MAX  -4.600E-09
+    X_delyiannis_filter_U1.V_VCM_MIN   3.900E-09
+    X_unity_amplifier_U1.V_VCM_MAX  -4.600E-09
+    X_unity_amplifier_U1.V_VCM_MIN   3.900E-09
+    X_delyiannis_filter_U1.X_H3.VH_H3  -1.231E-05
+    X_delyiannis_filter_U1.X_VOS_VS_VCM.V1   1.097E-14
+    X_unity_amplifier_U1.X_H3.VH_H3  -1.209E-05
+    X_unity_amplifier_U1.X_VOS_VS_VCM.V1  -8.785E-18
+
+    TOTAL POWER DISSIPATION   8.33E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 08/11/22 13:40:26 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-AC"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circ
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        6.87
+  Total job time (using Solver 1)   =        1.31
+

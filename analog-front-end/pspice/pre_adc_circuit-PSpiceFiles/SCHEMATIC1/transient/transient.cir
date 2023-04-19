@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_adc_circuit-pspicefiles\schematic1\transient.sim ] 
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20ns 10ns 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N10402])
+.PROBE64 N([N12507])
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

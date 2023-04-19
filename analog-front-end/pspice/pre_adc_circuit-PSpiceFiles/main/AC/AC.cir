@@ -1,0 +1,23 @@
+** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_circuit-pspicefiles\main\ac.sim ] 
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 100Meg 10G
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 I(V_Voff1)
+.PROBE64 I(V_Vsrc+)
+.PROBE64 I(V_Vsrc-)
+.INC "..\main.net" 
+
+
+.END

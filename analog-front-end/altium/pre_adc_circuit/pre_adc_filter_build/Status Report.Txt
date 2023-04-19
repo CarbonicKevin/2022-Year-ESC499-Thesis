@@ -1,0 +1,36 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [pre_adc_pcb2.PcbDoc]
+   Generated File[pre_adc_pcb2.GTO]
+   Generated File[pre_adc_pcb2.GTP]
+   Generated File[pre_adc_pcb2.GTS]
+   Generated File[pre_adc_pcb2.GTL]
+   Generated File[pre_adc_pcb2.GBL]
+   Generated File[pre_adc_pcb2.GBS]
+   Generated File[pre_adc_pcb2.GBP]
+   Generated File[pre_adc_pcb2.GBO]
+   Generated File[pre_adc_pcb2.GM1]
+   Generated File[pre_adc_pcb2.GM2]
+   Generated File[pre_adc_pcb2.GM3]
+   Generated File[pre_adc_pcb2.GM4]
+   Generated File[pre_adc_pcb2.GM5]
+   Generated File[pre_adc_pcb2.GM13]
+   Generated File[pre_adc_pcb2.GM15]
+   Generated File[pre_adc_pcb2.GM16]
+   Generated File[pre_adc_pcb2.GM20]
+   Generated File[pre_adc_pcb2.GM21]
+   Generated File[pre_adc_pcb2.GM23]
+   Generated File[pre_adc_pcb2.GM24]
+   Generated File[pre_adc_pcb2.GPT]
+   Generated File[pre_adc_pcb2.GPB]
+   Generated File[pre_adc_pcb2.GD1]
+   Generated File[pre_adc_pcb2.GG1]
+   Generated File[pre_adc_pcb2.RUL]
+   Generated File[pre_adc_pcb2.EXTREP]
+   Generated File[pre_adc_pcb2.REP]
+
+
+Files Generated   : 27
+Documents Printed : 0
+
+Finished Output Generation At 9:41:43 PM On 2022-11-11

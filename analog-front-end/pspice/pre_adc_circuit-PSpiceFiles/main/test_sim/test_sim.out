@@ -1,0 +1,63 @@
+
+**** 08/09/22 14:11:53 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test_sim"  [ C:\Users\kevin\OneDrive\University\Y4S1_2024_Fall_Semester\Thesis\pre_adc_circuit\pspice\pre_ad
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test_sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRE_ADC_CIRCUIT
+.EXTERNAL OUTPUT Vo
+.EXTERNAL OUTPUT Vin
+.EXTERNAL OUTPUT V1
+.EXTERNAL OUTPUT Vs+
+.EXTERNAL OUTPUT Vs-
+X_U1         V1 N00626 VO VS+ VS- OPA855
+R_R1         N02473 N00152  1k TC=0,0 
+R_R2         V1 N00152  1k TC=0,0 
+V_V1         V1 0 DC 0 AC <AC> <TRAN>
+---------------------------$
+ERROR(ORPSIM-16492): Missing value
+V_Vin         VIN 0 DC 0 AC <AC> 1
+-----------------------------$
+ERROR(ORPSIM-16492): Missing value
+C_C1         N00152 N00626  1n  TC=0,0 
+C_C2         N00152 VO  1n  TC=0,0 
+R_R3         N00626 VO  1k TC=0,0 
+V_Vs+         VS+ 0 DC 0 AC <AC> <TRAN>
+-----------------------------$
+ERROR(ORPSIM-16492): Missing value
+V_Vs-         VS- 0 DC 0 AC <AC> <TRAN>
+-----------------------------$
+ERROR(ORPSIM-16492): Missing value
+X_U2         VIN N02473 N02473 VS+ VS- OPA855
+
+**** RESUMING test_sim.cir ****
+.END
+

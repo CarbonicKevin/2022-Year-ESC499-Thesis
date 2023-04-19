@@ -1,0 +1,23 @@
+** Profile: "SCHEMATIC1-test"  [ C:\Users\kevin\OneDrive\University\Y4S1_2024_Fall_Semester\Thesis\pre_adc_circuit\pspice\pre_adc_circuit-pspicefiles\schematic1\test.sim ] 
+
+** Creating circuit file "test.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ns 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([VOUT])
+.PROBE64 N([N05098])
+.PROBE64 N([N04200])
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

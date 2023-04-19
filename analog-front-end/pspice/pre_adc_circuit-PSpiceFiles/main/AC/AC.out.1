@@ -1,0 +1,394 @@
+
+**** 02/25/23 18:48:17 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1000 100Meg 10G
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\main.net" 
+
+
+
+**** INCLUDING main.net ****
+* source PRE_ADC_CIRCUIT
+R_delyiannis_filter_R2         delyiannis_filter_N03304 N42996  53.05 TC=0,0 
+C_delyiannis_filter_C1         delyiannis_filter_N03272
++  delyiannis_filter_N03304  8.25p  TC=0,0 
+R_delyiannis_filter_R3         0 delyiannis_filter_N03272  636.6 TC=0,0 
+C_delyiannis_filter_C2         delyiannis_filter_N03272 N42996  8.25p  TC=0,0 
+R_delyiannis_filter_R1         N43000 delyiannis_filter_N03272  26.5 TC=0,0 
+X_delyiannis_filter_U1         0 delyiannis_filter_N03304 N42996 N10244 N10256
++  OPA855
+X_unity_amplifier_U1         N42920 N43000 N43000 N10244 N10256 OPA855
+V_Vsrc+         N10244 0 2.5
+V_Vsrc-         0 N10256 2.5
+V_Vin         N42920 0  AC 100m
++SIN 0 100m 500Meg 0 0 0
+C_delyiannis_filter1_C2         delyiannis_filter1_N03272 N19213  8.25p  TC=0,0
++  
+X_delyiannis_filter1_U1         0 delyiannis_filter1_N03304 N19213 N10244
++  N10256 OPA855
+C_delyiannis_filter1_C1         delyiannis_filter1_N03272
++  delyiannis_filter1_N03304  8.25p  TC=0,0 
+R_delyiannis_filter1_R1         N42996 delyiannis_filter1_N03272  26.5 TC=0,0 
+R_delyiannis_filter1_R3         0 delyiannis_filter1_N03272  636.6 TC=0,0 
+R_delyiannis_filter1_R2         delyiannis_filter1_N03304 N19213  53.05 TC=0,0 
+C_delyiannis_filter2_C2         delyiannis_filter2_N03272 N43560  8.25p  TC=0,0
++  
+X_delyiannis_filter2_U1         0 delyiannis_filter2_N03304 N43560 N10244
++  N10256 OPA855
+C_delyiannis_filter2_C1         delyiannis_filter2_N03272
++  delyiannis_filter2_N03304  8.25p  TC=0,0 
+R_delyiannis_filter2_R1         N19213 delyiannis_filter2_N03272  26.5 TC=0,0 
+R_delyiannis_filter2_R3         0 delyiannis_filter2_N03272  636.6 TC=0,0 
+R_delyiannis_filter2_R2         delyiannis_filter2_N03304 N43560  53.05 TC=0,0 
+X_level_shifter_U1         level_shifter_N01603 level_shifter_N00293 N41004
++  N10244 N10256 OPA855
+R_level_shifter_R2_         level_shifter_N01603 N39588  400 TC=0,0 
+R_level_shifter_R1         0 level_shifter_N00293  100 TC=0,0 
+R_level_shifter_R2         level_shifter_N00293 N41004  400 TC=0,0 
+R_level_shifter_R1_         N43560 level_shifter_N01603  100 TC=0,0 
+V_Voff1         N39588 0 0.5
+
+**** RESUMING AC.cir ****
+.END
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+**** 02/25/23 18:48:17 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter1_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter1_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter1_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter2_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter2_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter2_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_level_shifter_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_level_shifter_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_level_shifter_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+**** 02/25/23 18:48:17 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_unity_amplifier_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_delyiannis_filter1_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_delyiannis_filter2_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_level_shifter_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 02/25/23 18:48:17 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_delyiannis_filter_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_unity_amplifier_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter1_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_delyiannis_filter1_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter1_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter2_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_delyiannis_filter2_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter2_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_level_shifter_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_level_shifter_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_level_shifter_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 02/25/23 18:48:17 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "main-AC"  [ c:\users\kevin\onedrive\university\y4s1_2022_fall_semester\esc499_thesis\pre_adc_circuit\pspice\pre_adc_cir
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =          18
+  External (NCNODS)                 =         423
+  Total (NUMNOD)                    =         423
+
+Total device count (NUMEL)          =         968
+  Capacitors (C)                    =         131
+  Diodes (D)                        =          30
+  VCVS (E)                          =          55
+  VCCS (G)                          =         145
+  CCVS (H)                          =           5
+  Current Sources (I)               =          45
+  Inductors (L)                     =          10
+  Resistors (R)                     =         493
+  VSwitches (S)                     =          20
+  Voltage Sources (V)               =          24
+
+Number of subcircuits (X)           =          85
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         517
+  Initial no. elements (NTTAR)      =        2101
+  No. elements w/ fillin (NTTBR)    =        2101
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      99.214
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        4.17
+  General setup                     =         .02
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .11
+  Total job time (using Solver 1)   =        4.20
+

@@ -1,0 +1,244 @@
+
+**** 08/11/22 13:40:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_a
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 20ns 10ns 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PRE_ADC_CIRCUIT
+.EXTERNAL INPUT Vfinal
+R_delyiannis_filter_R2         delyiannis_filter_N03304 VFINAL  5.23m TC=0,0 
+C_delyiannis_filter_C1         delyiannis_filter_N03272
++  delyiannis_filter_N03304  40.54n  TC=0,0 
+R_delyiannis_filter_R3         N10851 delyiannis_filter_N03272  15.7m TC=0,0 
+C_delyiannis_filter_C2         delyiannis_filter_N03272 VFINAL  40.54n  TC=0,0 
+R_delyiannis_filter_R1         0 delyiannis_filter_N03272  15.7m TC=0,0 
+X_delyiannis_filter_U1         N10851 delyiannis_filter_N03304 VFINAL N10244
++  N10256 OPA855
+X_unity_amplifier_U1         N10402 N12507 N12507 N10244 N10256 OPA855
+V_Vsrc+         N10244 0 5
+V_Vsrc-         0 N10256 5
+V_V1         N10402 0  AC 1
++SIN 0 1 500e6 0 0 0
+V_Voff         N10851 0 0.5
+
+**** RESUMING transient.cir ****
+.END
+
+**** 08/11/22 13:40:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_a
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_delyiannis_filter_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_E_N.DVN 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_I_NP1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+               X_unity_amplifier_U1.X_U1.DNVF 
+          IS  100.000000E-18 
+          KF  316.227800E-12 
+
+
+**** 08/11/22 13:40:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_a
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+               X_unity_amplifier_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 08/11/22 13:40:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_a
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_delyiannis_filter_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_delyiannis_filter_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_delyiannis_filter_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_ESD_OUT.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_unity_amplifier_U1.X_S1._S1 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+               X_unity_amplifier_U1.X_S2._S2 
+         RON    1.000000E-03 
+        ROFF   20.000000E+03 
+         VON     .04         
+        VOFF    -.05         
+
+
+ERROR(ORPSIM-16583): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. Reduce the number of traces and simulate again.
+
+
+ABORTING SIMULATION
+**** 08/11/22 13:40:42 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-transient"  [ c:\users\kevin\onedrive\university\y4s1_2024_fall_semester\thesis\pre_adc_circuit\pspice\pre_a
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           8
+  External (NCNODS)                 =         171
+  Total (NUMNOD)                    =         171
+
+Total device count (NUMEL)          =         387
+  Capacitors (C)                    =          52
+  Diodes (D)                        =          12
+  VCVS (E)                          =          22
+  VCCS (G)                          =          58
+  CCVS (H)                          =           2
+  Current Sources (I)               =          18
+  Inductors (L)                     =           4
+  Resistors (R)                     =         195
+  VSwitches (S)                     =           8
+  Voltage Sources (V)               =          12
+
+Number of subcircuits (X)           =          34
+
+Matrix statistics:
+  Matrix size (NSTOP)               =         211
+  Initial no. elements (NTTAR)      =         846
+  No. elements w/ fillin (NTTBR)    =         846
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      98.100
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        1.19
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .06
+  License check-out time            =       15.52
+  Total job time (using Solver 1)   =        1.19
+

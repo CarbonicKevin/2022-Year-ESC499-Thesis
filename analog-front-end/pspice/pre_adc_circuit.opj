@@ -1,0 +1,117 @@
+(ExpressProject "pre_adc_circuit"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2022 S008-[02/26/23]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\pre_adc_circuit.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\pre_adc_circuit-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\pre_adc_circuit-pspicefiles\main\main.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pre_adc_circuit-pspicefiles\main\transient.sim"
+        (DisplayName "main-transient")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\pre_adc_circuit-pspicefiles\main\ac.sim"
+        (DisplayName "main-AC")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\pre_adc_circuit-pspicefiles\main\transient.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (0
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (OPA855
+      (FullPartName "OPA855.Normal")
+      (LibraryName "C:\CDS_SPB_HOME\CDSSETUP\PSPTILIBDIR\OPA855.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R_var
+      (FullPartName "R_var.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "kevin")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 627"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 884 24 645")
+        (Scroll "-21 0")
+        (Zoom "83")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\KEVIN\ONEDRIVE\UNIVERSITY\Y4S1_2022_FALL_SEMESTER\ESC499_THESIS\PRE_ADC_CIRCUIT\PSPICE\PRE_ADC_CIRCUIT.DSN")
+      (Schematic "main")
+      (Page "PAGE1"))))
