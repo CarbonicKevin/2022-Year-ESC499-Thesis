@@ -1,5 +1,5 @@
 hdl_prj
 slprj
-rfsoc_sam_custom/block_design
+block_design
 *.slxc
 *.autosave
