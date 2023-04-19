@@ -1,68 +1,91 @@
-<img src="strathsdr_banner.png" width="100%">
 
-<table border="0" align="center">
-    <tr border="0">
-        <td align="center" width="50%" border="0">
-            <img src="https://www.rfsocbook.com/wp-content/uploads/2022/12/RFSoC3D_v4-1433x1536.png" alt="oscthumb" style="width: 60%" border="0"/>
-        </td>
-        <td align="center" width="50%" border="0">
-            <font size=7><b>Available Now!</b></font size> <br> <font size=5>Software Defined Radio with Zynq® UltraScale+ RFSoC</font size> <br> <font size=4><a href="https://rfsocbook.com/">Free Download</a> <br><a href="https://www.amazon.com/Software-Defined-Radio-Ultrascale-RFSoC/dp/1739588606?keywords=zynq+rfsoc&qid=1673452844&sprefix=%2Caps%2C137&sr=8-1&linkCode=ll1&tag=thzybo-20&linkId=0bf245a543fd4af4625086df4c190928&language=en_US&ref_=as_li_ss_tl">Printed Edition</a></font size>
-        </td>
-    </tr>
-</table>
+---
+# Portable NMR Spectroscopy with Direct Sampling
+## BASc Thesis | 2023 Winter Semester
 
-# Spectrum Analyser on PYNQ
-This repository hosts an RFSoC Spectrum Analyser tool compatible with [PYNQ image v2.7](https://github.com/Xilinx/PYNQ/releases) for the ZCU111, RFSoC2x2, and RFSoC4x2 development board.
+### Author : Kevin Kim - kevin.kimminjun@gmail.com
+### Supervisor(s) : Professor Roman Genov, Sudip Nag
 
-<p align="center">
-  <img src="./demonstration.gif" width="75%" height="75%" />
-</p>
+---
 
-## Quick Start
-Follow the instructions below to install the Spectrum Analyser now. **You will need to give your board access to the internet**.
-* Power on your RFSoC development board with an SD Card containing a fresh PYNQ v2.7 image.
-* Navigate to Jupyter Labs by opening a browser (preferably Chrome) and connecting to `http://<board_ip_address>:9090/lab`.
-* We need to open a terminal in Jupyter Lab. Firstly, open a launcher window as shown in the figure below:
+# 1. Description
 
-<p align="center">
-  <img src="./open_jupyter_launcher.jpg" width="50%" height="50%" />
-</p>
+This repo contains all project files related to my 4th year Thesis.
 
-* Now open a terminal in Jupyter as illustrated below:
+This thesis aimed to create a simplified Rx for an NMR Spectrometor. Most NMR spectrometors have complex analog Rx to reduce the sampling rate required for analysis. This is done for many reasons, one of them being that they were constrained by slow ADCs that could not aquire high frequency signals.
 
-<p align="center">
-  <img src="./open_terminal_window.jpg" width="50%" height="50%" />
-</p>
+This project attempts to leverage modern high frequency ADCs to conduct analysis at the high frequencies. This would mean that the Rx could be simplified. Complex Rx has the disadvantage of introducing the noise and distortion into the system, and the goal of simplifying it would be that the digital domain would get the cleanest signal as possible.
 
-Run the code below in the jupyter terminal to install the Spectrum Analyser.
+The project is split into two components:
+1. The analog front-end
+   - Simple band-pass filter
+     - Third order Deliyannis Filter
+   - Goal is to attenuate signals outside of the interested bandwidth
+2. The digital back-end
+   - Mixer-Based Zoom FFT
+     - Implementation is a modification of the strathsdr spectrual analyzer
+     - Original: https://github.com/strath-sdr/rfsoc_sam
+   - Modified for deep FFT windows
+     - Up to 2^16 samples
 
-```sh
-pip3 install git+https://github.com/strath-sdr/rfsoc_sam
+While the digial back-end achieves the the required specifications, the analog front-end requires more work. There is significant noise introduced by the analog front-end which will impact the analysis.
+
+# 2. Custom Tutorials
+
+I've compiled a series of .md files with images explaining specifically how the PYNQ + RFSoC 2x2 Platform works. They are available under [tutorials](tutorials)
+
+# 3. Key Links
+
+## 2a. StrathSDR RFSoC Spectural Analyser.
+- StrathSDR Analyzer Source Files:
+https://github.com/strath-sdr/rfsoc_sam
+
+## 2b. Open Source PYNQ
+- PYNQ Image to flash onto SD Card: http://www.pynq.io/board.html
+- PYNQ Source Files: https://github.com/Xilinx/RFSoC-PYNQ
+
+## 2c. Tutorial Videos for the RFSoC 2x2 Platform
+- General Tutorial Landing Page: http://www.rfsoc-pynq.io/tutorial.html
+- StrathSDR Spectrum Analyser Overview: https://youtu.be/PqPdfnbNxyY
+
+# 4. Repo Directory Description
+
 ```
-
-Once installation has complete you will find the Spectrum Analyser notebooks in the Jupyter workspace directory. The folder will be named 'spectrum-analyzer'.
-
-## Using the Project Files
-The following software is required to use the project files in this repository.
-- Vivado Design Suite 2020.2
-- System Generator for DSP
-- MATLAB R2020a
-
-### Vivado
-This project can be built with Vivado from the command line. Open Vivado 2020.2 and execute the following into the tcl console:
-```sh
-cd /<repository-location>/boards/<board-name>/rfsoc_sam/
+├───tutorials: .md tutorial write ups
+|
+├───analog front-end: Project files related to the front-end
+│   │
+│   ├───altium: Altium Files for PCB Layout
+│   │
+│   └───pspice: Pspice Files for Simulations
+│
+├───digital back-end: Project files related to the back-end
+│   │
+│   ├───boards: Folder containing board-specific files i.e. for RFSoC2x2
+│   │   │
+│   │   ├───ip: Folder containing both the Simulink/Sysgen files for blocks, as well as the synthesized blocks.
+│   │   │   │
+│   │   │   ├───hdlcoder_custom: simulink files of custom spectrum analyser block.
+│   │   │   │
+│   │   │   └───iprepo: contains custom packaged IPs.
+│   │   │
+│   │   └───RFSoC2x2: KEY FOLDER
+│   │       │
+│   │       ├─── *.tcl: tcl files for recreating the block diagrams in vivado
+│   │       │
+│   │       ├───drivers: board specific drivers, contains main overlay and constants
+│   │       │
+│   │       ├───notebooks: contains the jupyter notebooks
+│   │       │
+│   │       └───bitstream: contains the implemented bitstream .bit and hardware description .hwh files.
+│   │
+│   ├───dist: packaged python library images
+│   │
+│   ├───rfsoc_sam_custom: contains python drivers for interfacing with the implemented hardware
+│   │
+│   └───scripts: contains custom scripts for automation
+│       │
+│       └───customise_packages.py: makes nessary modifications to files after generating new custom blocks.
+│
+└───reports: contains written pdfs.
 ```
-Now that we have moved into the correct directory, make the Vivado project by running the make commands below sequentially.
-```sh
-make block_design
-make bitstream
-```
-
-Alternatively, you can run the entire project build by executing the following into the tcl console:
-```sh
-make all
-```
-
-## License 
-[BSD 3-Clause](../../blob/master/LICENSE)

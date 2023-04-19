@@ -1,4 +1,5 @@
-boards/ip/hdlcoder/hdl_prj
-boards/ip/hdlcoder/slprj
+hdl_prj
+slprj
+rfsoc_sam_custom/block_design
 *.slxc
 *.autosave
